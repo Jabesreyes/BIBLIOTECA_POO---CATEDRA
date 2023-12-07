@@ -5,9 +5,11 @@ import javax.swing.JOptionPane;
 import modelo.SqlMateriales;
 import modelo.SqlPrestamos;
 import modelo.usuarios;
+import org.apache.log4j.Logger;
 
 public class home extends javax.swing.JFrame {
 
+    private static final Logger log = Logger.getLogger(home.class);
     usuarios mod;
 
     public static registro frmReg;
